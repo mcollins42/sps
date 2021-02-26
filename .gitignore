@@ -1,4 +1,5 @@
 .classpath
+.theia
 .idea
 .project
 .settings/
