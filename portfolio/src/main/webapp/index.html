@@ -10,11 +10,17 @@
     <div id="content">
       <h1>Hello</h1>
       <p>My name is Mark. I'm helping with SPS as a technical coach.</p>
-      <p><img src="/images/Mark%20Profile.jpg"/></p>
+      <p><img src="/images/Mark%20Profile.jpg"/ width="220" height="220"></p>
       <p>Click <a href="/hello">here</a> to see content created by server code.</p>
       <p>Click here to get a random message:</p>
       <button onclick="addRandomGreeting()">Hello</button>
       <div id="greeting-container"></div>
+      <p>Add a new paragraph</p>
+      <div id="gallery-container">
+          This is the gallery
+      </div>
+      <p>To fetch from server click here: <button onclick="fetchServerMessage()">Fetch</button>
+      <div id="message-container"></div>
     </div>
   </body>
 </html>
